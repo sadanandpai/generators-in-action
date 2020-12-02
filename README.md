@@ -2,6 +2,7 @@
 
 Working of multiple generators with the help of queue data structure where the one generator yields to trigger the next one in chain till the completion of all
 
+<a href="https://sadanandpai.github.io/generators-in-action/">Live Demo</a>
 
 ## Core logic
 ```js
