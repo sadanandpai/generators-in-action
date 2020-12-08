@@ -16,11 +16,10 @@ async function* gen(counter, progress) {
 }
 
 const iteratorQueue = [gen(), gen(), gen(), gen()];
-let iterator;
 
 async function startGenerators() {
     while (iteratorQueue.length !== 0) {
-        iterator = iteratorQueue.shift();
+        const iterator = iteratorQueue.shift();
         const value = await iterator.next();
         if (!value.done) {
             iteratorQueue.push(iterator);
