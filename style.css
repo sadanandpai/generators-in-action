@@ -70,7 +70,7 @@ button {
 
 button:active {
   background-color: white;
-  box-shadow: inline 2px 2px 8px 1px black;
+  inset 1px 1px 3px 0px black;
 }
 
 .init {
