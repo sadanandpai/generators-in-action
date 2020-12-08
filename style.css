@@ -65,6 +65,7 @@ button {
   box-shadow: 2px 2px 8px 1px black;
   transform: translateY(50%);
   border: 2px solid black;
+  cursor: pointer;
 }
 
 button:active {
