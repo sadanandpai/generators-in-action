@@ -1,4 +1,4 @@
-# generators-in-action
+# Generators in action
 
 Working of multiple generators with the help of queue data structure where the one generator yields to trigger the next one in chain till the completion of all
 
